@@ -81,7 +81,12 @@
     "dyn": 0,
     "extendNew": 0,
     "extendRev": 0,
-    "media_files": [],
+    "media_files": [
+        "Screenshot 2026-06-22 at 09-06-40 (16) AWS Control Tower - AWS SCS-C03 (Lesson 12) - YouTube.png",
+        "paste-5f519abc00d6bde4cab46d1f7bca46f9195c2727.jpg",
+        "screenshot 2026-06-22 at 09-03-20 (16) resource control policies (rcps) - aws scs-c03 (lesson 11) - youtube.png",
+        "screenshot 2026-06-22 at 09-08-05 (16) aws control tower - aws scs-c03 (lesson 12) - youtube.png"
+    ],
     "name": "AWS Certified Security - Specialty",
     "newLimit": null,
     "newLimitToday": null,
@@ -172,6 +177,146 @@
                 "Service control policy.&nbsp;Organizational-level guardrails that centrally control the maximum available permissions for all accounts in your AWS Organization"
             ],
             "guid": "zkK?!lLsa#",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "This offers central control over the maximum \navailable permissions for IAM users and IAM roles in an organization.",
+                "SCPs"
+            ],
+            "guid": "torB3t;(nK",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Example SCP",
+                "{<br>&nbsp; \"Version\": \"2012-10-17\",<br>&nbsp; \"Statement\": [<br>&nbsp;&nbsp;&nbsp; {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Sid\": \"RequireMicroInstanceType\",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Effect\": \"Deny\",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Action\": \"ec2:RunInstances\",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Resource\": [<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"arn:aws:ec2:*:*:instance/*\"<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ],<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Condition\": {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"StringNotEquals\": {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"ec2:InstanceType\": [<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"t3.micro\",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"t2.micro\"<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br>&nbsp;&nbsp;&nbsp; }<br>&nbsp; ]<br>}"
+            ],
+            "guid": "t;>E+=7C=B",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "True or False: SCPs are only applied to Member accounts",
+                "True"
+            ],
+            "guid": "lKub2q^8.}",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "True or False: SCPs are applied to Service-Linked Roles",
+                "False"
+            ],
+            "guid": "il<%Y??;K_",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "SCP Limitations",
+                "Only 5 SCPs per root account, and limit of 5,120 characters for policy."
+            ],
+            "guid": "P-t3p6IO)=",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<code>OrganizationAccountAccessRole</code>",
+                "The <code>OrganizationAccountAccessRole</code> is a preconfigured AWS IAM role automatically created in member accounts when using AWS Organizations. It grants administrative privileges (via the <code>AdministratorAccess</code> policy) to the management account, allowing organization administrators to manage, troubleshoot, and configure sub-accounts."
+            ],
+            "guid": "q4Z({$t/Qe",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "RCP",
+                "Resource Control Policy"
+            ],
+            "guid": "HhBHBeJ,>L",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What AWS policy controls the maximum permissions for resources in an organization?",
+                "Resource Control Policies"
+            ],
+            "guid": "OS,r^.G$R<",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "True or False: RCPs can only deny permissions",
+                "True"
+            ],
+            "guid": "o.q1[adtu6",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "&nbsp;RCP Example: Restricting Cross Account Key Access&nbsp;",
+                "<img src=\"screenshot 2026-06-22 at 09-03-20 (16) resource control policies (rcps) - aws scs-c03 (lesson 11) - youtube.png\">"
+            ],
+            "guid": "I82!o.^b`P",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "AWS Control Tower",
+                "Allows you to setup and manage multiple AWS accounts. You can deploy templates to all new or onboarded accounts, like IAM users across accounts.&nbsp;<br><br><img src=\"Screenshot 2026-06-22 at 09-06-40 (16) AWS Control Tower - AWS SCS-C03 (Lesson 12) - YouTube.png\">"
+            ],
+            "guid": "OCwJrD-)J;",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "AWS Control Tower: Landing Zone First Time Setup",
+                "<img src=\"screenshot 2026-06-22 at 09-08-05 (16) aws control tower - aws scs-c03 (lesson 12) - youtube.png\">"
+            ],
+            "guid": "HK=q;,B[YS",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "IAM Users Vs IAM Roles",
+                "IAM Users<br><ul><li>Represents single identity</li><li>Has long term credentials</li><li>Ex: You use an <b>IAM User</b> for a newly hired employee who needs their own permanent login to the AWS environment</li></ul><div>IAM Roles</div><div><ul><li>Uses temporary credentials</li><li>It is not associated with a specific person, but rather granted to anyone (or anything) that needs to perform a specific task for a limited time.</li><li>Ex: You use an <b>IAM Role</b> to grant an EC2 instance permission to read an S3 bucket</li></ul></div>"
+            ],
+            "guid": "d+:Kpetf:@",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "IAM Users &amp; Roles Example",
+                "<img src=\"paste-5f519abc00d6bde4cab46d1f7bca46f9195c2727.jpg\"><br>IAM user logs in and is assigned security analyst role"
+            ],
+            "guid": "p3<Lww~JKo",
             "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
             "tags": []
         }
