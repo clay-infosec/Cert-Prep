@@ -1,0 +1,423 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "5fcb41d4-6a48-11f1-b3c2-1e4652aeb480",
+    "deck_config_uuid": "5fcb74b0-6a48-11f1-b3c2-1e4652aeb480",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "5fcb74b0-6a48-11f1-b3c2-1e4652aeb480",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "easyDaysPercentages": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "fsrsParams5": [],
+            "fsrsParams6": [],
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "desiredRetention": null,
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "Screenshot 2026-06-22 at 09-06-40 (16) AWS Control Tower - AWS SCS-C03 (Lesson 12) - YouTube.png",
+        "paste-15247368b24826ee099d7dc5b7fd33e578ecfaa9.jpg",
+        "paste-26cc2cf44fbdd9e4e016d669fd3ac24caeab923f.jpg",
+        "paste-44495fedd5293703dcbe7340d483e0e85d535339.jpg",
+        "paste-5f519abc00d6bde4cab46d1f7bca46f9195c2727.jpg",
+        "paste-66ce651148b9b7c6762d2c9b44072260233ab873.jpg",
+        "paste-6fbd952c19c6b9cda89ebc44d44d1c70b0f0e009.jpg",
+        "paste-fde5ba849368eba140149f10af790143f535a3ad.jpg",
+        "policyevaluationsingleaccountrole.png",
+        "screenshot 2026-06-22 at 09-03-20 (16) resource control policies (rcps) - aws scs-c03 (lesson 11) - youtube.png",
+        "screenshot 2026-06-22 at 09-08-05 (16) aws control tower - aws scs-c03 (lesson 12) - youtube.png"
+    ],
+    "name": "AWS Certified Security - Specialty",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    line-height: 1.5;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 3496784856905510951,
+                    "name": "Front",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -2341898116230545291,
+                    "name": "Back",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -5262975448801144879,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "STS",
+                "A web service that grants users temporary, limited-privileges to access your AWS resource"
+            ],
+            "guid": "xh<:L4ScvS",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "SCP",
+                "Service control policy.&nbsp;Organizational-level guardrails that centrally control the maximum available permissions for all accounts in your AWS Organization"
+            ],
+            "guid": "zkK?!lLsa#",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "This offers central control over the maximum \navailable permissions for IAM users and IAM roles in an organization.",
+                "SCPs"
+            ],
+            "guid": "torB3t;(nK",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Example SCP",
+                "{<br>&nbsp; \"Version\": \"2012-10-17\",<br>&nbsp; \"Statement\": [<br>&nbsp;&nbsp;&nbsp; {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Sid\": \"RequireMicroInstanceType\",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Effect\": \"Deny\",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Action\": \"ec2:RunInstances\",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Resource\": [<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"arn:aws:ec2:*:*:instance/*\"<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ],<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"Condition\": {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"StringNotEquals\": {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"ec2:InstanceType\": [<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"t3.micro\",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \"t2.micro\"<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br>&nbsp;&nbsp;&nbsp; }<br>&nbsp; ]<br>}"
+            ],
+            "guid": "t;>E+=7C=B",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "True or False: SCPs are only applied to Member accounts",
+                "True"
+            ],
+            "guid": "lKub2q^8.}",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "True or False: SCPs are applied to Service-Linked Roles",
+                "False"
+            ],
+            "guid": "il<%Y??;K_",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "SCP Limitations",
+                "Only 5 SCPs per root account, and limit of 5,120 characters for policy."
+            ],
+            "guid": "P-t3p6IO)=",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<code>OrganizationAccountAccessRole</code>",
+                "The <code>OrganizationAccountAccessRole</code> is a preconfigured AWS IAM role automatically created in member accounts when using AWS Organizations. It grants administrative privileges (via the <code>AdministratorAccess</code> policy) to the management account, allowing organization administrators to manage, troubleshoot, and configure sub-accounts."
+            ],
+            "guid": "q4Z({$t/Qe",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "RCP",
+                "Resource Control Policy"
+            ],
+            "guid": "HhBHBeJ,>L",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What AWS policy controls the maximum permissions for resources in an organization?",
+                "Resource Control Policies"
+            ],
+            "guid": "OS,r^.G$R<",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "True or False: RCPs can only deny permissions",
+                "True"
+            ],
+            "guid": "o.q1[adtu6",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "&nbsp;RCP Example: Restricting Cross Account Key Access&nbsp;",
+                "<img src=\"screenshot 2026-06-22 at 09-03-20 (16) resource control policies (rcps) - aws scs-c03 (lesson 11) - youtube.png\">"
+            ],
+            "guid": "I82!o.^b`P",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "AWS Control Tower",
+                "Allows you to setup and manage multiple AWS accounts. You can deploy templates to all new or onboarded accounts, like IAM users across accounts.&nbsp;<br><br><img src=\"Screenshot 2026-06-22 at 09-06-40 (16) AWS Control Tower - AWS SCS-C03 (Lesson 12) - YouTube.png\">"
+            ],
+            "guid": "OCwJrD-)J;",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "AWS Control Tower: Landing Zone First Time Setup",
+                "<img src=\"screenshot 2026-06-22 at 09-08-05 (16) aws control tower - aws scs-c03 (lesson 12) - youtube.png\">"
+            ],
+            "guid": "HK=q;,B[YS",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "IAM Users Vs IAM Roles",
+                "IAM Users<br><ul><li>Represents single identity</li><li>Has long term credentials</li><li>Ex: You use an <b>IAM User</b> for a newly hired employee who needs their own permanent login to the AWS environment</li></ul><div>IAM Roles</div><div><ul><li>Uses temporary credentials</li><li>It is not associated with a specific person, but rather granted to anyone (or anything) that needs to perform a specific task for a limited time.</li><li>Ex: You use an <b>IAM Role</b> to grant an EC2 instance permission to read an S3 bucket</li></ul></div>"
+            ],
+            "guid": "d+:Kpetf:@",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "IAM Users &amp; Roles Example",
+                "<img src=\"paste-5f519abc00d6bde4cab46d1f7bca46f9195c2727.jpg\"><br>IAM user logs in and is assigned security analyst role"
+            ],
+            "guid": "p3<Lww~JKo",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Managed vs Inline Policies",
+                "Inline Policies<br><ul><li>Created for a single IAM identity (user, group, role)</li><li>Permanently bonded to an identity</li><li>Does not scale well</li></ul><div>Managed Policies</div><div><ul><li>Can be attached and detached from IAM identities (user, group, role)</li><li>Scales well</li><li>2 types of policies (customer managed and AWS-managed)</li></ul><div><img src=\"paste-fde5ba849368eba140149f10af790143f535a3ad.jpg\"></div></div><div><br></div><div><img src=\"paste-15247368b24826ee099d7dc5b7fd33e578ecfaa9.jpg\"></div>"
+            ],
+            "guid": "Pk#lIv;1cC",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Customer Managed Policies",
+                "Policies that are created by the AWS customer, and are custom to the organization. Can be cloned from AWS managed policies and modified for least privilege.&nbsp;<br><br><img src=\"paste-26cc2cf44fbdd9e4e016d669fd3ac24caeab923f.jpg\">"
+            ],
+            "guid": "xpQ/.4,xr!",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define Explicit Deny",
+                "Deny all unless allowed"
+            ],
+            "guid": "C:czqt+?pZ",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Scenario: Cross Account Policies",
+                "If you have an identity in Account A that needs to reach a resource in Account B, you will need two policies for this relationship to work.<br><br><img src=\"paste-66ce651148b9b7c6762d2c9b44072260233ab873.jpg\">"
+            ],
+            "guid": "hqcqp~FR[T",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "IAM Permission Boundaries",
+                "AWS supports <em>permissions boundaries</em> for IAM\n        entities (users or roles). A permissions boundary is an advanced feature for using a managed\n        policy to set the maximum permissions that an identity-based policy can grant to an IAM\n        entity. An entity's permissions boundary allows it to perform only the actions that are\n        allowed by both its identity-based policies and its permissions boundaries.<br><br><img src=\"paste-44495fedd5293703dcbe7340d483e0e85d535339.jpg\">"
+            ],
+            "guid": "tPn[^bMr>l",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Describe AWS Assumed Roles",
+                "An AWS assumed role grants temporary security permissions to a user or service without assigning permanent privileges. It enforces the <strong>principle of least privilege</strong> and eliminates long-term access keys, serving as a core security and identity delegation mechanism in AWS.<br><br>This creates an audit trail of which IAM identity assumed which role.&nbsp;<br><br>Example: PCMSOCRole"
+            ],
+            "guid": "d|h;{errTy",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Permissions Boundaries vs SCPs",
+                "SCPs apply at the account level OU where permissions boundaries are applied to roles / identities<br><br><img src=\"paste-6fbd952c19c6b9cda89ebc44d44d1c70b0f0e009.jpg\">"
+            ],
+            "guid": "zf11S/d:mv",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Session Control Policies",
+                "These are used when working with the AWS CLI/API. They only limit permissions granted to the session. They do not elevate privileges, only limit."
+            ],
+            "guid": "Lw4lNd>>3M",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Policy evaluation Flow (Graphic)",
+                "<img alt=\"Evaluation flow chart for an IAM role within a single account.\" src=\"policyevaluationsingleaccountrole.png\">"
+            ],
+            "guid": "jp@wgLV4J{",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
