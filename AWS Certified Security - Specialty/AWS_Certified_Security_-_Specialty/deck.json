@@ -83,7 +83,21 @@
     "extendRev": 0,
     "media_files": [
         "Screenshot 2026-06-22 at 09-06-40 (16) AWS Control Tower - AWS SCS-C03 (Lesson 12) - YouTube.png",
+        "paste-15247368b24826ee099d7dc5b7fd33e578ecfaa9.jpg",
+        "paste-181bafeb035fad237aa18bba1a8270a4c1550c2b.jpg",
+        "paste-1d6f7480c188fdfa509a42642410326e5ff654ae.jpg",
+        "paste-26cc2cf44fbdd9e4e016d669fd3ac24caeab923f.jpg",
+        "paste-2d44cab422bde22e3968886011544adbd3c3db04.jpg",
+        "paste-44495fedd5293703dcbe7340d483e0e85d535339.jpg",
+        "paste-4547c3e2e72b39063ddb9f9f812e86acd2cce1d2.jpg",
         "paste-5f519abc00d6bde4cab46d1f7bca46f9195c2727.jpg",
+        "paste-66ce651148b9b7c6762d2c9b44072260233ab873.jpg",
+        "paste-6fbd952c19c6b9cda89ebc44d44d1c70b0f0e009.jpg",
+        "paste-81641cb46f24bf2bc40e8924b4ef0221e4c9e83b.jpg",
+        "paste-e217e563e88a9e4059afd55b6c331473bd774bcd.jpg",
+        "paste-e9177b8a5a263bf905e2308aaae9ccb7eef0550a.jpg",
+        "paste-fde5ba849368eba140149f10af790143f535a3ad.jpg",
+        "policyevaluationsingleaccountrole.png",
         "screenshot 2026-06-22 at 09-03-20 (16) resource control policies (rcps) - aws scs-c03 (lesson 11) - youtube.png",
         "screenshot 2026-06-22 at 09-08-05 (16) aws control tower - aws scs-c03 (lesson 12) - youtube.png"
     ],
@@ -317,6 +331,206 @@
                 "<img src=\"paste-5f519abc00d6bde4cab46d1f7bca46f9195c2727.jpg\"><br>IAM user logs in and is assigned security analyst role"
             ],
             "guid": "p3<Lww~JKo",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Managed vs Inline Policies",
+                "Inline Policies<br><ul><li>Created for a single IAM identity (user, group, role)</li><li>Permanently bonded to an identity</li><li>Does not scale well</li></ul><div>Managed Policies</div><div><ul><li>Can be attached and detached from IAM identities (user, group, role)</li><li>Scales well</li><li>2 types of policies (customer managed and AWS-managed)</li></ul><div><img src=\"paste-fde5ba849368eba140149f10af790143f535a3ad.jpg\"></div></div><div><br></div><div><img src=\"paste-15247368b24826ee099d7dc5b7fd33e578ecfaa9.jpg\"></div>"
+            ],
+            "guid": "Pk#lIv;1cC",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Customer Managed Policies",
+                "Policies that are created by the AWS customer, and are custom to the organization. Can be cloned from AWS managed policies and modified for least privilege.&nbsp;<br><br><img src=\"paste-26cc2cf44fbdd9e4e016d669fd3ac24caeab923f.jpg\">"
+            ],
+            "guid": "xpQ/.4,xr!",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define Explicit Deny",
+                "Deny all unless allowed"
+            ],
+            "guid": "C:czqt+?pZ",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Scenario: Cross Account Policies",
+                "If you have an identity in Account A that needs to reach a resource in Account B, you will need two policies for this relationship to work.<br><br><img src=\"paste-66ce651148b9b7c6762d2c9b44072260233ab873.jpg\">"
+            ],
+            "guid": "hqcqp~FR[T",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "IAM Permission Boundaries",
+                "AWS supports <em>permissions boundaries</em> for IAM\n        entities (users or roles). A permissions boundary is an advanced feature for using a managed\n        policy to set the maximum permissions that an identity-based policy can grant to an IAM\n        entity. An entity's permissions boundary allows it to perform only the actions that are\n        allowed by both its identity-based policies and its permissions boundaries.<br><br><img src=\"paste-44495fedd5293703dcbe7340d483e0e85d535339.jpg\">"
+            ],
+            "guid": "tPn[^bMr>l",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Describe AWS Assumed Roles",
+                "An AWS assumed role grants temporary security permissions to a user or service without assigning permanent privileges. It enforces the <strong>principle of least privilege</strong> and eliminates long-term access keys, serving as a core security and identity delegation mechanism in AWS.<br><br>This creates an audit trail of which IAM identity assumed which role.&nbsp;<br><br>Example: PCMSOCRole"
+            ],
+            "guid": "d|h;{errTy",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Permissions Boundaries vs SCPs",
+                "SCPs apply at the account level OU where permissions boundaries are applied to roles / identities<br><br><img src=\"paste-6fbd952c19c6b9cda89ebc44d44d1c70b0f0e009.jpg\">"
+            ],
+            "guid": "zf11S/d:mv",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Session Control Policies",
+                "These are used when working with the AWS CLI/API. They only limit permissions granted to the session. They do not elevate privileges, only limit."
+            ],
+            "guid": "Lw4lNd>>3M",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Policy evaluation Flow (Graphic)",
+                "<img alt=\"Evaluation flow chart for an IAM role within a single account.\" src=\"policyevaluationsingleaccountrole.png\">"
+            ],
+            "guid": "jp@wgLV4J{",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Trusted Entity Types",
+                "<b>AWS Trusted Entities</b>&nbsp;are the principals (who or what) authorized to assume an IAM role in AWS. This authorization is defined within the role's&nbsp;<b>Trust Policy</b>.<br><ul><li><div><b>AWS Service:</b> AWS resources (like EC2 or Lambda) that need permissions to act on your behalf.</div></li><li><div><b>AWS Account:</b> IAM users or roles within your own AWS account or a different/third-party AWS account (used for cross-account access).</div></li><li><div><b>Web Identity:</b> External users authenticated through an OpenID Connect (OIDC) provider (e.g., Google, Amazon Cognito, GitHub).</div></li><li><div><b>SAML 2.0 Federation:</b> Corporate users authenticated through an enterprise identity provider (e.g., Microsoft Active Directory, Okta).</div></li><li><div><b>Custom Trust Policy:</b> A manually authored JSON policy for complex or highly specific trust conditions not covered by the standard categories.</div></li></ul>"
+            ],
+            "guid": "M8[==YqN|Z",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Trust Policy Creation Example",
+                "<ol><li><b>Select trusted entity type: </b>Choose <b>AWS service</b>.</li><li><div><b>Service or use case:</b>&nbsp;Select <b>EC2</b> from the dropdown list.</div></li><li><div><b>Permissions:</b>&nbsp;Attach a policy (e.g., allowing access to an S3 bucket).</div></li></ol>Once created, AWS automatically generates an underlying <b>Trust Policy</b> (a JSON document attached to the role). For an EC2 instance."
+            ],
+            "guid": "lmd(<X?a[K",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Trust Policy vs SCP&nbsp;",
+                "A Trust Policy dictates <i>who</i> can step into a specific role, while a Service Control Policy (SCP) acts as an organizational guardrail that dictates the <i>maximum</i> permissions anyone can have"
+            ],
+            "guid": "p{x^yZ$HT+",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "AWS Lambda",
+                "<b>AWS Lambda</b> is a serverless compute service that lets you run code without provisioning or managing physical or virtual servers. You simply upload your code, and Amazon Web Services (AWS) automatically handles the infrastructure scaling, patching, and administration required to run it. Example:<br><br><b>Trigger</b>: An upload to an <b>Amazon S3</b> bucket triggers an asynchronous execution payload to your function.<br><b>Action</b>:&nbsp;Creates a compressed image thumbnail whenever an original photo is uploaded."
+            ],
+            "guid": "A622YdN0$T",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Service-Linked Roles",
+                "A unique, predefined IAM role that links permissions directly to an AWS service. It securely grants the service the exact permissions it needs to interact with other AWS resources on your behalf. Example: Allow GuardDuty permissions to access VPC logs for security purposes.<br><br><img src=\"paste-e9177b8a5a263bf905e2308aaae9ccb7eef0550a.jpg\">"
+            ],
+            "guid": "dCtpc7?rh.",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Service Linked Roles vs Service Roles",
+                "Service Roles are custom IAM roles you create and manage to let an AWS service interact with other resources on your behalf. Service-Linked Roles (SLRs) are pre-defined, read-only IAM roles that AWS creates automatically for a specific service, containing strictly the exact permissions that service requires (they're basically a role template)."
+            ],
+            "guid": "K/_$:*+}W|",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Scenario: Cross-account access with roles",
+                "User in account A needs to access resources in account B.<br><br><img src=\"paste-181bafeb035fad237aa18bba1a8270a4c1550c2b.jpg\"><br>Process:<br><ol><li>In ccount B, Go to IAM&nbsp;</li><li>Create role</li><li>Trusted EntityType = AWS Account</li><li>In Account A, Go to user, add an identity based policy allowing them to access account B</li></ol><img src=\"paste-2d44cab422bde22e3968886011544adbd3c3db04.jpg\">"
+            ],
+            "guid": "E#yN63Y2#|",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The Confused Deputy Problem",
+                "A security issue that can happen where an entity that doesn't have permissions to perform an action can coerce someone else who does have access to perform that action. Basically using a trusted entity as a proxy. Bad actor gives trusted 3rd party the victim ARN / Role, permitting bad actor to the destination account. External ID's are a secondary check that prevents this.&nbsp;<br><br><img src=\"paste-4547c3e2e72b39063ddb9f9f812e86acd2cce1d2.jpg\"><br><br>External ID is generated by the Trust Policy. This is typically used for outside contractors / vendor<br><br><img src=\"paste-e217e563e88a9e4059afd55b6c331473bd774bcd.jpg\">"
+            ],
+            "guid": "q(~q!kNtx,",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "RBAC",
+                "Role based access control"
+            ],
+            "guid": "zAskTGiS}h",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ABAC",
+                "Attribute based access control. Uses attributes to grant access to roles. Example would be using resource tags that ABAC would recognize and apply permissions.<br><br><img src=\"paste-1d6f7480c188fdfa509a42642410326e5ff654ae.jpg\">"
+            ],
+            "guid": "gc~w(xMsg$",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ABAC: Example Policy",
+                "<img src=\"paste-81641cb46f24bf2bc40e8924b4ef0221e4c9e83b.jpg\">"
+            ],
+            "guid": "Ma/?@=w~,L",
             "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
             "tags": []
         }
