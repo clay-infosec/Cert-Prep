@@ -94,6 +94,7 @@
         "paste-66ce651148b9b7c6762d2c9b44072260233ab873.jpg",
         "paste-6fbd952c19c6b9cda89ebc44d44d1c70b0f0e009.jpg",
         "paste-81641cb46f24bf2bc40e8924b4ef0221e4c9e83b.jpg",
+        "paste-b099b4fd287ccc85e750fa5b96e5a982e9c8d743.jpg",
         "paste-e217e563e88a9e4059afd55b6c331473bd774bcd.jpg",
         "paste-e9177b8a5a263bf905e2308aaae9ccb7eef0550a.jpg",
         "paste-fde5ba849368eba140149f10af790143f535a3ad.jpg",
@@ -531,6 +532,36 @@
                 "<img src=\"paste-81641cb46f24bf2bc40e8924b4ef0221e4c9e83b.jpg\">"
             ],
             "guid": "Ma/?@=w~,L",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "IAM vs Identity Center Users",
+                "IAM users are AWS local accounts, and don't scale well to other accounts / services. Identity Center users leverage org's IDP to provision access.<br><br><img src=\"paste-b099b4fd287ccc85e750fa5b96e5a982e9c8d743.jpg\">"
+            ],
+            "guid": "d:>JHKQX@W",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is IAM Identity Center?",
+                "Service with an API that lets you manage users at scale. Centralized service to manage workforce access to AWS accounts and applications. It allows you to provision identities once and grant streamlined single sign-on (SSO) and application access across your entire AWS environment."
+            ],
+            "guid": "d!TLFb*r@#",
+            "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Why should you Delegate AWS IAM Identity Center to a shared services account?",
+                "Delegating AWS IAM Identity Center administration to a <strong>Shared Services</strong> (or member) account restricts the number of users who require access to the highly privileged organization <strong>Management (Root) account</strong>. It implements the principle of <strong>least privilege</strong> by ensuring daily identity and access management operations do not occur in the master billing and governance account."
+            ],
+            "guid": "Qse/I-=&:|",
             "note_model_uuid": "5fcbb45c-6a48-11f1-b3c2-1e4652aeb480",
             "tags": []
         }
